@@ -1,0 +1,41 @@
+/* 
+Design Notes
+Photo gallery portion of the page: CSS grid. 
+Other parts: whatever CSS layout technique(s) you feel are the best choice.
+
+Some notes on the design from your UX designer:
+
+Sans-serif font
+Page background colour is #cccccc
+Header background color: #120323
+Company name & image bottom border: #97bf04
+Navigation & footer background colour: #d9043d
+Any spacing not defined can be estimated
+Ensure you don't use pixels for anything other than image widths and border sizes. All other units should be relative (rem, em, %, etc.)
+Each photo has a 10px border on the bottom
+Each gallery image should scale according to the size of its container, up to 650px in width, and be centered in its container
+*/
+
+/*General*/
+
+/*Header*/
+
+/*Footer*/
+
+/*Media Queries*/
+
+/*For devices less than 768px wide
+The buttons in the navigation should be of equal width and height, and take up 95% of the screen width
+The buttons have a border that is colour #97bf04
+The photo gallery should be one column
+
+For devices less than 1000px wide
+The navigation should be a pink bar that takes up 100% the width of the screen with the links centered inside the nav bar
+The photo gallery should be two columns
+The last image in the gallery (tiger) should span two columns
+
+For devices greater than 1000px wide
+The navigation should be a pink bar that takes up 100% the width of the screen with the links centered inside the nav bar
+The photo gallery should be three columns
+The last image in the gallery (tiger) should span two columns
+*/
