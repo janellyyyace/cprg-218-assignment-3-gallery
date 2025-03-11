@@ -17,10 +17,24 @@ Each gallery image should scale according to the size of its container, up to 65
 */
 
 /*General*/
+body {
+    background-color: #cccccc;
+    font-family: 'Segoe UI', Verdana, Tahoma, sans-serif;
+    font-size: 18px;
+    margin: auto;
+ }
+
 
 /*Header*/
 
+
 /*Footer*/
+footer {
+    background-color:#d9043d;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+ }
 
 /*Media Queries*/
 
