@@ -16,6 +16,10 @@ Each photo has a 10px border on the bottom
 Each gallery image should scale according to the size of its container, up to 650px in width, and be centered in its container
 */
 
+* {
+    box-sizing: border-box;
+ }
+
 /*General*/
 body {
     background-color: #cccccc;
@@ -26,6 +30,24 @@ body {
 
 
 /*Header*/
+header {
+    background-color: #120323;
+    text-align: center
+}
+
+h1 {
+    color: #97bf04;
+}
+
+nav {
+    background-color: #d9043d;
+    padding: 1rem;
+}
+
+nav ul {
+    text-decoration: none;
+    color: white;
+}
 
 
 /*Footer*/
