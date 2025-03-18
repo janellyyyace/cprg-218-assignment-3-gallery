@@ -45,10 +45,17 @@ nav {
 }
 
 nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
     text-decoration: none;
     color: white;
 }
-
 
 /*Footer*/
 footer {
