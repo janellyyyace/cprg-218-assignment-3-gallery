@@ -32,11 +32,17 @@ body {
 /*Header*/
 header {
     background-color: #120323;
-    text-align: center
+    text-align: center;
+    align-items: center;
 }
 
 h1 {
     color: #97bf04;
+}
+
+header img {
+    max-width: 150px;
+    border: 0;
 }
 
 nav {
@@ -92,8 +98,49 @@ footer {
 
 /*Media Queries*/
 
+@media screen and (min-width: 768px){
+    nav{
+        width: 100%;
+        background-color: #d9043d;
+    }
 
+    nav ul li {
+        display: inline;
+        border: 0;
+    }
+    
+    #gallery-container {
+        grid-template-columns: 1fr 1fr;
+        display: grid;
+        gap: 1rem;
+        padding: 1rem;
+    }
 
+    figure:last-of-type{
+        grid-column: span 2;
+    }
+
+@media screen and (min-width: 1000px){
+    nav{
+        width: 100%;
+        background-color: #d9043d;
+    }
+    
+    nav ul li {
+        display: inline;
+        border: 0;
+    }
+        
+    #gallery-container {
+        grid-template-columns: 1fr 1fr 1fr;
+        display: grid;
+        gap: 1rem;
+        padding: 1rem;
+    }
+    
+    figure:last-of-type{
+        grid-column: span 2;
+    }    
 
 /*For devices less than 768px wide
 The buttons in the navigation should be of equal width and height, and take up 95% of the screen width
