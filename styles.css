@@ -40,22 +40,47 @@ h1 {
 }
 
 nav {
-    background-color: #d9043d;
     padding: 1rem;
+    width: 95%
 }
 
 nav ul {
     list-style: none;
+    padding: 0;
 }
 
 nav ul li {
-    display: inline;
+    display: block;
+    background-color: #d9043d;
+    border: 2px solid #97bf04;
+    margin-bottom: 0.25rem;
 }
 
 nav ul li a {
     text-decoration: none;
     color: white;
+    padding: 0.25rem
 }
+
+/*Gallery*/
+
+#gallery-container {
+    grid-template-columns: 1;
+    display: grid;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+h2 {
+    text-align: center;
+}
+
+img {
+    border-bottom: 10px solid #97bf04;
+    width: 100%;
+    max-width: 650px;
+}
+
 
 /*Footer*/
 footer {
@@ -66,6 +91,9 @@ footer {
  }
 
 /*Media Queries*/
+
+
+
 
 /*For devices less than 768px wide
 The buttons in the navigation should be of equal width and height, and take up 95% of the screen width
