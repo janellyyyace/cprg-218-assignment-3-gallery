@@ -126,4 +126,5 @@ footer {
     figure:last-of-type{
         grid-column: span 2;
     }    
+    }
 }
